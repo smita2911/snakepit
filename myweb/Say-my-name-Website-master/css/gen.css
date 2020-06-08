@@ -1,0 +1,25 @@
+html, body{
+   padding: 0;
+   margin: 0;
+}
+.nav{
+  background: black;
+  padding: 0;
+  height: 50px;
+}
+
+.nav p {
+  font-family: 'Brush Script MT';
+  font-size: 30px;
+  color: white;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.base{
+  background: black;
+  padding: 0;
+  height: 50px;
+  align-self: baseline;
+  margin-top: 1px;
+}

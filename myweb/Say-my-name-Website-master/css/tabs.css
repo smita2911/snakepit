@@ -1,0 +1,86 @@
+.tab_menu {
+  margin-top: 35px;
+  border: 0;
+  position: relative;
+  text-align: center;
+}
+
+/* Style the buttons inside the tab */
+.tab_menu button {
+  border: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab_menu button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab_menu button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+ .showTab {
+  display: block;
+}
+
+/* inside the tabs */
+.tabs{
+  clear:none;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 3%;
+}
+.home_content{
+  display: grid;
+  grid-auto-rows: repeat(2,200px);
+  grid-auto-flow: column;
+  grid-gap: 20px;
+}
+.display_image{
+}
+.display_image img{
+  height:60vh;
+  width:45vh;
+  object-fit: cover;
+
+}
+.some_words{
+  height: 50%;
+    transform: translateY(-50%);
+      position: relative;
+      top:50%;
+}
+.some_words p{
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative;
+
+font-size: 20px;
+font-family: 'Verdana';
+}
+
+
+
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "book1",
+        "color": "red",
+        "icon": "web",
+        "url": "https://www.iconfinder.com/icons/2824439/book_note_paper_school_icon"
+	},
+    {
+        "name": "book2",
+        "color": "red",
+        "icon": "web",
+        "url": "https://google.com"
+	},
+    {
+        "name": "journals and other media publications",
+        "color": "red",
+        "icon": "web",
+        "url": "https://google.com"
+	},
+    {
+        "name": "papers",
+        "color": "red",
+        "icon": "web",
+        "url": "https://google.com"
+	}
+]
